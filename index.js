@@ -4,10 +4,6 @@ const client = new Client();
 const leagues = ["mls"];
 const seasonName = "2021";
 
-const extractIds = (ids) => {
-  return ids.map((id) => id.players[0]);
-};
-
 (async () => {
   try {
     const asaXgoals = await client.getPlayersXgoals({

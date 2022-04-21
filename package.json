@@ -10,5 +10,7 @@
   "author": "Doug Wade <douglas.b.wade@gmail.com",
   "license": "MIT",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "itscalledsoccer": "^1.0.1"
+  }
 }
